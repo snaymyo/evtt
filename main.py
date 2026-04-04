@@ -7,7 +7,7 @@ import time
 import threading
 import subprocess
 
-# Import compiled app module
+
 try:
     from app import app
     from app import run_telegram_bot, auto_limit_check, check_license_from_github
@@ -55,9 +55,6 @@ def main():
         from werkzeug.serving import run_simple
         run_simple('0.0.0.0', 5001, app, use_reloader=False, threaded=True)
 
-# ✅ Gunicorn အတွက် app variable ကို ထုတ်ပေးပါ
-# (ဒီအပိုင်းက main function ရဲ့ အပြင်မှာ ရှိရပါမယ်)
-app = app  # from app import app ကနေ ရလာတဲ့ app ကို ပြန်ထုတ်ပေးတယ်
-
+app = app  
 if __name__ == '__main__':
     main()
