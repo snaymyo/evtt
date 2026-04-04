@@ -7,7 +7,7 @@ import time
 import threading
 import subprocess
 
-
+# Import compiled app module
 try:
     from app import app
     from app import run_telegram_bot, auto_limit_check, check_license_from_github
@@ -21,7 +21,7 @@ except ImportError as e:
 
 def main():
     print("\n" + "="*60)
-    print("🔐 𝐄𝐕𝐓 𝐒𝐒𝐇 𝐌𝐀𝐍𝐀𝐆𝐄𝐑 - 𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐒𝐒𝐇 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦")
+    print("🔐 EVT SSH MANAGER - Compiled Version")
     print("="*60)
     
     # License check
@@ -43,9 +43,7 @@ def main():
     vps_ip = get_vps_ip()
     print(f"\n✅ Web Panel: http://{vps_ip}:5001")
     print("[🤖] Telegram Bot running...")
-    print(f"[❌] ခု {message}")
-        print(f"🧔🆃🅴🅻🅴🅶🆁🅰🅼 🅰🅲🅲🅾🆄🅽🆃")
-        print(f"𝗵𝘁𝘁𝗽𝘀://𝘁.𝗺𝗲/𝗲𝘃𝘁𝘃𝗽𝗻143")
+    print("[⚡] Compiled mode active\n")
     
     # Run server
     try:
@@ -55,6 +53,5 @@ def main():
         from werkzeug.serving import run_simple
         run_simple('0.0.0.0', 5001, app, use_reloader=False, threaded=True)
 
-app = app  
 if __name__ == '__main__':
     main()
