@@ -21,7 +21,7 @@ except ImportError as e:
 
 def main():
     print("\n" + "="*60)
-    print("🔐 EVT SSH MANAGER - Compiled Version")
+    print("🔐 𝐄𝐕𝐓 𝐒𝐒𝐇 𝐌𝐀𝐍𝐀𝐆𝐄𝐑 - 𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐒𝐒𝐇 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦")
     print("="*60)
     
     # License check
@@ -43,7 +43,9 @@ def main():
     vps_ip = get_vps_ip()
     print(f"\n✅ Web Panel: http://{vps_ip}:5001")
     print("[🤖] Telegram Bot running...")
-    print("[⚡] Compiled mode active\n")
+    print(f"[❌] ခု {message}")
+        print(f"🧔🆃🅴🅻🅴🅶🆁🅰🅼 🅰🅲🅲🅾🆄🅽🆃")
+        print(f"𝗵𝘁𝘁𝗽𝘀://𝘁.𝗺𝗲/𝗲𝘃𝘁𝘃𝗽𝗻143")
     
     # Run server
     try:
