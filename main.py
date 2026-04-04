@@ -13,10 +13,7 @@ try:
     from app import run_telegram_bot, auto_limit_check, check_license_from_github
     from app import sync_all_users_to_system, get_vps_ip
 except ImportError as e:
-    print(f"\n❌ Cannot import compiled module!")
-    print(f"   Error: {e}")
-    print(f"\n📌 Please run: python setup.py build_ext --inplace")
-    print(f"   Then rename the .so file to 'app.so'")
+    
     sys.exit(1)
 
 def main():
