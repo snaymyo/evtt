@@ -41,10 +41,12 @@ def main():
     limit_thread.start()
     
     vps_ip = get_vps_ip()
-    print(f"\n✅ 𝗪𝗲𝗯 𝗣𝗮𝗻𝗲𝗹: http://{vps_ip}:5001")
+    
     print("🤖] 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗕𝗼𝘁 𝗿𝘂𝗻𝗻𝗶𝗻𝗴...")
-    print("🧔🆃🅴🅻🅴🅶🆁🅰🅼 🅰🅲🅲🅾🆄🅽🆃\n")
+    print("🧔🆃🅴🅻🅴🅶🆁🅰🅼 🅰🅲🅲🅾🆄🅽🆃")
     print("𝗵𝘁𝘁𝗽𝘀://𝘁.𝗺𝗲/𝗲𝘃𝘁𝘃𝗽𝗻143")
+    print("𝐄𝐕𝐓 𝐒𝐒𝐇 𝐏𝐀𝐍𝐄𝐋 စတင်အသုံးပြုလို့ရပါပြီ")
+    print(f"\n✅ 𝗪𝗲𝗯 𝗣𝗮𝗻𝗲𝗹: http://{vps_ip}:5001")
     
     # Run server
     try:
