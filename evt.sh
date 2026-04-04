@@ -10,14 +10,14 @@ NC='\033[0m'
 exec 2>/dev/null
 
 echo "================================================"
-echo -e "${GREEN}🔐 𝐄𝐕𝐓 𝐒𝐒𝐇 𝐌𝐀𝐍𝐀𝐆𝐄𝐑 - 𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐒𝐒𝐇 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦${NC}"
+echo -e "${YELLOW}🔐 𝐄𝐕𝐓 𝐒𝐒𝐇 𝐌𝐀𝐍𝐀𝐆𝐄𝐑 - 𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐒𝐒𝐇 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦${NC}"
 echo "================================================"
 
 # Check if evtt folder exists
 if [ -d "evtt" ]; then
     echo -e "${YELLOW}[⚠] 🍕🍟🥪 အရင်ဖိုင် ရှိမရှိ စစ်ဆေးနေသည် 🥙🥡🍖${NC}"
     rm -rf evtt
-    echo -e "${GREEN}[✅] ဖိုင်အဟောင်းဖျတ်နေသည်${NC}"
+    echo -e "${RED}[✅] ဖိုင်အဟောင်းဖျတ်နေသည်${NC}"
 fi
 
 # Clone fresh repository
@@ -38,8 +38,8 @@ pip3 install -r requirements.txt
 
 echo -e "${GREEN}[✅] 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐅𝐢𝐧𝐢𝐬𝐡${NC}"
 echo "================================================"
-echo -e "${GREEN}[🚀] Starting EVT SSH Manager...${NC}"
-echo -e "${YELLOW}[⚠] ပိတ်ရန် Ctrl+C ကိုနှိပ်ပေးပါ${NC}"
+
+echo -e "${RED}[⚠] ပိတ်ရန် Ctrl+C ကိုနှိပ်ပေးပါ${NC}"
 echo "================================================"
 
 # Run the app
