@@ -9,8 +9,8 @@ NC='\033[0m'
 exec 2>/dev/null
 
 echo "================================================"
-echo -e "${GREEN}🔐 EVT SSH MANAGER - Installing${NC}"
-echo "================================================"
+echo -e "${GREEN}🔐 𝙀𝙑𝙏 𝙎𝙎𝙃 𝙈𝘼𝙉𝘼𝙂𝙀𝙍 - 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙞𝙣𝙜${NC}"
+
 
 if [ -d "evtt" ]; then
     
@@ -22,8 +22,7 @@ else
     cd evtt
 fi
 
-echo "================================================"
-echo -e "${GREEN}[✅] Starting EVT SSH Manager...${NC}"
+echo -e "${GREEN}[✅] 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐅𝐢𝐧𝐢𝐬𝐡${NC}"
 echo "================================================"
 
 python3 main.py
