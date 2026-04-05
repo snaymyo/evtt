@@ -22,6 +22,7 @@ fi
 
 # Clone fresh repository
 echo -e "${BLUE}[➡] 𝗘𝗩𝗧 𝗦𝗦𝗛 𝗠𝗔𝗡𝗚𝗘𝗥 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗜𝗡𝗚 ${NC}"
+rm -rf evtt
 git clone https://github.com/snaymyo/evtt.git
 
 if [ $? -ne 0 ]; then
